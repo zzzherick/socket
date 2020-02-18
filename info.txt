@@ -1,0 +1,9 @@
+Acadêmico: Herick Maciel Maia / Redes de Computadores - Ciência da Computação (8ª Fase) UNESC
+
+-- CONVERSOR DE MOEDAS --
+
+Software feito em python. É criado um socket, com porta aletória (5555, 1234, 2211...) que realiza a conexão entre o client e o server.
+
+O client escolhe uma opção (REAL p/ DOLAR, DOLAR p/ REAL, EURO p/ REAL...), e envia o valor para o server. O server calcula a partir da resposta do client a opção escolhida e o resultado desejado, e então retorna ao client o resultado.
+
+Os valores do Dólar e do Euro são definidos por um módulo em python 'CurrencyRates', que busca na Web os valores verdadeiros dos mesmos.
